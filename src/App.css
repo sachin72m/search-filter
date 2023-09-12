@@ -1,4 +1,99 @@
+/* src/App.css */
 .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: yellow;
+}
+
+h1 {
+  color: #f50707;
+  margin-top: 20px;
+
+}
+h2 {
+  color: #6f4cfd;
+}
+
+.chocolates-list {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border-right: 1px solid #1e0ff3;
+}
+
+.selected-chocolates {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  background-color: #f40bb2;
+}
+
+ul {
+  list-style: square;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+}
+
+input[type="number"] {
+  width: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.selected-chocolates p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+/* .App input {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+p {
+  margin: 10px;
+  font-size: 18px;
+}  */
+
+
+
+
+
+
+
+
+
+
+/* .App {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,4 +112,4 @@
 p {
   margin: 10px;
   font-size: 18px;
-}
+} */
